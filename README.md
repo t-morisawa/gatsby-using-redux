@@ -3,6 +3,15 @@ Gatsby製サイトの中でReduxアプリケーションを動作させるサン
 
  - https://github.com/gatsbyjs/gatsby/tree/master/examples/using-redux
  - https://t-morisawa.github.io/gatsby-using-redux/public/
+ 
+# ビルド手順
+## 通常のビルド
+ - `npm run build`
+ - `/public` をpush
+
+## [log]元のソースからの変更点
+ - パスのprefixを設定する必要あり
+ - https://www.gatsbyjs.org/docs/path-prefix/
 
 # 元のREADME
 
